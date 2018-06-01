@@ -1,6 +1,6 @@
-(defproject coop.magnet.duct-module/cljs-externs "0.1.0-SNAPSHOT"
+(defproject coop.magnet.duct-module/cljs-externs "0.1.0"
   :description "Duct module for managing externs definitions when developing and compiling ClojureScript"
-  :url "https://github.com/iarenaza/duct-module-cljs-externs"
+  :url "https://github.com/magnetcoop/duct-module-cljs-externs"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.9.0"]

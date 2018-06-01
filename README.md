@@ -1,14 +1,14 @@
 # Duct module.cljs
 
-[![Build Status](https://travis-ci.org/iarenaza/duct-module-cljs-externs.svg?branch=master)](https://travis-ci.org/iarenaza/duct-module-cljs-externs)
+[![Clojars Project](https://img.shields.io/clojars/v/coop.magnet.duct-module/cljs-externs.svg)](https://clojars.org/coop.magnet.duct-module/cljs-externs)
 
 A [Duct][] module that adds support for managing [externs][] for third
 party JavaScript libraries when compiling ClojureScript for
 production.
 
-The default [:duct.module/cljs] configuration for the CLJS compiler
+The default [:duct.module/cljs][] configuration for the CLJS compiler
 does not include any externs definitions. The only way to add them to
-the CLJS compiler options is by using the `[:duct.compiler/cljs][]`
+the CLJS compiler options is by using the [:duct.compiler/cljs][]
 Integrant keys directly in the `config.edn` file for the production
 environment.
 
@@ -35,7 +35,7 @@ This module allows us to:
 
 To install, add the following to your project `:dependencies`:
 
-    [coop.magnet.duct-module/cljs-externs "0.1.0-SNAPSHOT"]
+    [coop.magnet.duct-module/cljs-externs "0.1.0"]
 
 ## Usage
 
