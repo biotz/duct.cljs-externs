@@ -61,7 +61,7 @@ requirement should disappear in the future:
 
 ## License
 
-Copyright © 2018 Iñaki Arenaza & Magnet S. Coop.
+Copyright (c) 2018, 2019 Iñaki Arenaza & Magnet S. Coop.
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
