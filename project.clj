@@ -9,4 +9,8 @@
                  [duct/compiler.cljs "0.2.0"]
                  [duct/module.cljs "0.3.2" :exclusions [org.clojure/tools.nrepl]]
                  [duct/server.figwheel "0.2.1" :exclusions [org.clojure/tools.nrepl]]
-                 [integrant "0.6.2"]])
+                 [integrant "0.6.2"]]
+  :profiles {:dev {:plugins [[lein-cljfmt "0.6.2"]
+                             [jonase/eastwood "0.3.4"]
+                             [s3-wagon-private "1.3.1"]
+                             [cider/cider-nrepl "0.20.0"]]}})
